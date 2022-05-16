@@ -4,7 +4,7 @@ Practice project
 
 Fixed issue with AttributeError: module 'tensorflow' has no attribute 'placeholder' 
 
-''bash 
+```bash 
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
-''bash
+```bash
